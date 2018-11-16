@@ -5,21 +5,16 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div>
+        <h1>MY TITLE</h1>
+        <ul>
+          <li>Bob</li>
+          <li>Tom</li>
+          <li>Garry</li>
+          <li>Victoria</li>
+        </ul>
+        <input text="Add a Friend"></input>
+        <button>MyButton</button>
       </div>
     );
   }
